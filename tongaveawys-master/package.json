@@ -1,0 +1,21 @@
+{
+  "name": "ton-gaveaways.html",
+  "version": "1.0.0",
+  "description": "helps track the status of paper wallet give-aways, aka \"gaveawayss\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "bash ./install.sh; webpack --mode='development' js/app.js",
+    "clean": "bash ./clean.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://tongaveaways@git.com:/ton-gaveaways.html.git"
+  },
+  "author": "AJ ONeal <mahdihoseini895@gmail.com> ",
+  "dependencies": {
+    "@tonevo/toncore-lib": "^0.16.9",
+    "bluebird": "^3.5.1",
+    "qrcode": "^1.2.0",
+    "request": "^2.83.0"
+  }
+}
